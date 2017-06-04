@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="47f6a63a-b790-4644-8fa0-1b7ffbe5ef23" name="raspi" url="http://192.168.2.73">
+        <fileTransfer host="192.168.2.73" port="22" rootFolder="/home/pi/roomdoormonitor" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
